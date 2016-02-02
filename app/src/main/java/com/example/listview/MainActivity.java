@@ -17,7 +17,6 @@
 package com.example.listview;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,6 +26,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.wangyonghua.androidlearndemos.BaseBackActivity;
 import com.example.wangyonghua.androidlearndemos.R;
 
 /**
@@ -34,7 +34,7 @@ import com.example.wangyonghua.androidlearndemos.R;
  * {@link ListView} UIs. The most interesting bits are in
  * the <code>res/layout/</code> directory of this sample.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseBackActivity {
 
     int pos = 3;
     private ListView mListView;

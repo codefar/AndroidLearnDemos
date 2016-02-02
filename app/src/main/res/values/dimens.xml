@@ -13,4 +13,7 @@
     <dimen name="margin_large">32dp</dimen>
     <dimen name="margin_huge">64dp</dimen>
     <dimen name="page_margin">@dimen/margin_medium</dimen>
+
+    <dimen name="default_ring_width">4dp</dimen>
+    <dimen name="ring_smallest_width">20dp</dimen>
 </resources>

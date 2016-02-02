@@ -14,16 +14,23 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="com.example.listview.MainActivity"
+        <activity
+            android:name="com.example.listview.MainActivity"
             android:label="ListView单选多选自定义">
             <intent-filter>
                 <category android:name="DEMO" />
             </intent-filter>
         </activity>
+        <activity android:name=".customviews.ViewDragHelperActivity" />
+        <activity android:name=".SvgActivity"></activity>
+        <activity android:name=".infiniteViewpager.MainActivity"/>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 </manifest>
